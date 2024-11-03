@@ -12,8 +12,6 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
 ## Description of Directories
 
-
-### Explanation
 - The `Data/` directory contains three folders: `hello/`, `thanks/`, and `iloveyou/`.
 - Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
 - Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
