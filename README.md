@@ -8,6 +8,29 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
 -~ also, I would recommend utilizing the prob_viz function to visualize the models output extract the keypoints from the image, and MAKE SURE --- !! if a any landmark we are detecting goes out of scope that its represented by a npy of zeros !! then, using predict with the model and running argmax you ge tthe prediction a little additional optimization is that when we transition between different signs we dont want to say that we are detection a specific sign so we only predict when the sign currently predicted is the same sign as 10 predictions ago, again each prediciton is happening per frame
 
+-= note , I trained my model on limited data, essentially this was the structure of my data
+
+- root dir
+- Data
+  - hello
+    -0
+      -0.npy
+      -1.npy
+      ...
+      -29.npy
+    -1
+      ...
+    -29
+      ...
+  - thanks
+      ...
+  - iloveyou
+      ...
+
+We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
+We have 3 actions, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
+This really not a large ammount of data, and this model could be improved, but for effiency and timesake --- it works :)
+
 -- have fun!!!!!!!
 
 Here is a quick demo of the interpreter
