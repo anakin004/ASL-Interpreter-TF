@@ -8,7 +8,7 @@ Sine this model is already train on data, you can download the trained.h5 model 
 
 -- have fun!
 
-Here is a quick demo the interpreter
+Here is a quick demo of the interpreter
 
 https://github.com/user-attachments/assets/0a1989d9-5c38-45a5-9054-a55d27f5c4cd
 
