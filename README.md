@@ -12,11 +12,13 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
 ## Description of Directories
 
-- **Data/**: Contains all data files used in the project.
-  - **hello/**: Directory for the "hello" dataset.
-    - **0/**: Contains numpy files related to the first dataset.
-    - **thanks/**: Contains additional related data.
-    - **iloveyou/**: Contains supplementary files.
+
+### Explanation
+- The `Data/` directory contains three folders: `hello/`, `thanks/`, and `iloveyou/`.
+- Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
+- Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
+
+Feel free to adjust the text or structure as needed!
 
 
 We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
