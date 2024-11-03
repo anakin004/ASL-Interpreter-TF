@@ -1,0 +1,21 @@
+- collect keypoints using mediapipe holistic
+
+- train model
+
+- predict 
+
+
+work flow:
+
+1. install dependencies
+2. keypoints
+3. extract those key points
+4. setup folders for collection
+5. collect keypoint values for train and test
+6. preprocess data and create labels and features
+7. build and train neutral net 
+8. predict 
+9. save weights
+10. evaluate using confusion matrix and accuracy
+11. test in real time
+
