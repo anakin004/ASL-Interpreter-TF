@@ -10,22 +10,14 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
 -= note , I trained my model on limited data, essentially this was the structure of my data
 
- root dir
- Data
- ...hello
- ....0
- .....0.npy
- .....1.npy
-      ...
- .....-29.npy
- ....1
-      ...
-    29
-      ...
-   thanks
-      ...
-   iloveyou
-      ...
+## Description of Directories
+
+- **Data/**: Contains all data files used in the project.
+  - **hello/**: Directory for the "hello" dataset.
+    - **0/**: Contains numpy files related to the first dataset.
+    - **thanks/**: Contains additional related data.
+    - **iloveyou/**: Contains supplementary files.
+
 
 We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
 We have 3 actions, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
