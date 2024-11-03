@@ -10,21 +10,21 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
 -= note , I trained my model on limited data, essentially this was the structure of my data
 
-- root dir
-- Data
-  - hello
-    -0
-      -0.npy
-      -1.npy
+ root dir
+ Data
+   hello
+    0
+      0.npy
+      1.npy
       ...
       -29.npy
-    -1
+    1
       ...
-    -29
+    29
       ...
-  - thanks
+   thanks
       ...
-  - iloveyou
+   iloveyou
       ...
 
 We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
