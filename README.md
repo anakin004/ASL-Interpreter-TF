@@ -26,6 +26,7 @@ This really not a large ammount of data, and this model could be improved, but f
 -- have fun!!!!!!!
 
 Here is a quick demo of the interpreter
+ - I make a prediction by parsing 30 frames at a time so it fits the model
 
 https://github.com/user-attachments/assets/0a1989d9-5c38-45a5-9054-a55d27f5c4cd
 
