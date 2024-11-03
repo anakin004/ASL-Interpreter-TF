@@ -12,13 +12,13 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 
  root dir
  Data
-   hello
-    0
-      0.npy
-      1.npy
+ ...hello
+ ....0
+ .....0.npy
+ .....1.npy
       ...
-      -29.npy
-    1
+ .....-29.npy
+ ....1
       ...
     29
       ...
