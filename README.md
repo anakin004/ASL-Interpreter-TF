@@ -16,7 +16,7 @@ Sine this model is already trained on data, you can download the trained.h5 mode
 - Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
 - Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
 
-Feel free to adjust the text or structure as needed!
+If you want the data that I processed let me know
 
 
 We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
