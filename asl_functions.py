@@ -84,4 +84,8 @@ def extract_keypoints(result):
         face = np.zeros(468*3)
 
     res = np.concatenate([pose, face, lh, rh])
+<<<<<<< HEAD
     return res  # Return the final array
+=======
+    return res  # Return the final array
+>>>>>>> 244cc87a3858c09c9ad2613e4f8df15d79170daa
