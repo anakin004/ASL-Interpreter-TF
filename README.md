@@ -18,7 +18,7 @@ note --- if a any landmark we are detecting goes out of scope that its represent
 - Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
 - Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
 
-If you want the data that I processed let me know, I wanted to leave it out so if anyone wants to work with the model they can try making their own data and training a model, and additionally because the model is already trained so the data is not too important for the scope of this project.
+If you want the data that I processed let me know, I wanted to leave it out so if anyone wants train their own model with new data they can, and additionally because the model is already trained so the data is not too important for the scope of this project.
 
 
 I detected three signs but can work for more, I am working on training the model on aditional data to add more signs, but just takes time
