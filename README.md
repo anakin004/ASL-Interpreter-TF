@@ -17,7 +17,7 @@ Since this model is already trained on data, you can download the trained.h5 mod
 If you want the data that I processed let me know
 
 
-We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
+I detected three signs but can work for more, I am working on training the model on aditional data to add more signs, but just takes time
 We have 3 actions, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
 This really not a large ammount of data, and this model could be improved, but for effiency and timesake --- it works :)
 
