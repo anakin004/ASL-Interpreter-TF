@@ -30,7 +30,11 @@ Here is a quick demo of the interpreter
 
 
 
-https://github.com/user-attachments/assets/f0c8776e-4398-4460-b95e-96e048fadfdf
+https://github.com/user-attachments/assets/27ee7ce0-ef49-4d6b-a139-fdcc8c723d16
+
+
+
+
 
 
 
