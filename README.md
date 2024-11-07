@@ -21,14 +21,17 @@ We have 3 signs we are detecting, I am working on training the model on aditiona
 We have 3 actions, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
 This really not a large ammount of data, and this model could be improved, but for effiency and timesake --- it works :)
 
--- have fun!!!!!!!
+-- have fun!
 
 Here is a quick demo of the interpreter
  - I make a prediction by parsing 30 frames at a time so it fits the model
 
 
 
-https://github.com/user-attachments/assets/08d2c851-5d6b-4a72-807e-cbd5660282db
+
+
+https://github.com/user-attachments/assets/f0c8776e-4398-4460-b95e-96e048fadfdf
+
 
 
 
