@@ -8,7 +8,7 @@ Since this model is already trained on data, you can download the trained.h5 mod
 
 note --- if a any landmark we are detecting goes out of scope that its represented by a npy of zeros, this is needed for consistency in how the model recieves data and makes predictions
 
-- then, using predict with the model and running argmax you get the prediction. A little additional optimization is that when we transition between different signs we dont want to say that we are detection a specific sign so we only predict when the sign currently predicted is the same sign as 10 predictions ago, again each prediciton is happening per 30 frames
+~= then, using predict with the model and running argmax you get the prediction. A little additional optimization is that when we transition between different signs we dont want to say that we are detection a specific sign so we only predict when the sign currently predicted is the same sign as 10 predictions ago, again each prediciton is happening per 30 frames
 
 -=  here is the structure of data if you want to tweak the model
 
