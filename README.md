@@ -21,9 +21,9 @@ Here is a quick demo of the interpreter
 
 
 
-https://github.com/user-attachments/assets/27ee7ce0-ef49-4d6b-a139-fdcc8c723d16
 
 
+https://github.com/user-attachments/assets/e23da4e3-3686-4338-ba54-c3058606c1f0
 
 
 
