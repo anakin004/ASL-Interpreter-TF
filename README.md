@@ -18,6 +18,8 @@ I have 6 actions, previous had 3, that have 30 sequences/ 60 videos , each video
 -- have fun!
 
 Here is a quick demo of the interpreter
+-- just noticed on the 'yes' sign mediapipe had trouble detecting my hand which is why it gave alot of variance
+-- going to fix soon with more signs included
 
 
 
