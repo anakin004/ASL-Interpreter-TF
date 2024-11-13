@@ -4,14 +4,6 @@ Hey thanks for checking our my repo!
 
 Since this model is already trained on data, you can download the trained.h5 model and make predictions using opencv. 
 
--=  here is the structure of data if you want to tweak the model
-
-## Description of Directories
-
-- The `Data/` directory contains three folders: `hello/`, `thanks/`, and `iloveyou/`.
-- Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
-- Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
-
 If you want the data that I processed let me know, I wanted to leave it out so if anyone wants train their own model with new data they can, and additionally because the model is already trained so the data is not too important for the scope of this project.
 
 
