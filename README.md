@@ -8,8 +8,10 @@ If you want the data that I processed let me know, I wanted to leave it out so i
 
 
 I detected three signs but can work for more, I am working on training the model on aditional data to add more signs, but just takes time
-I have 6 actions, previous had 3, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
-This really not a large ammount of data, and this model could be improved. I am open to suggested improvements
+I have 6 actions, previous had 3, that have 30 sequences/ 60 videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
+
+-- I previously had 30 sequences / 30 videos, but the model did not perform well when I added more signs, however with more data the model's accuracy did not undergo noticable change,
+  and I had to go through less training to achieve similar accuracy
 
 -+~ one more note, the versions of the dependencies can go out of scope, so if any issues arrise downloading them, pip should be able to tell you which versions are invalid/incompatible
 
