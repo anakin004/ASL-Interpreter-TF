@@ -1,0 +1,5 @@
+*.py linguist-language=Python
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+*.js linguist-language=JavaScript
+*.ipynb linguist-language=Jupyter Notebook
