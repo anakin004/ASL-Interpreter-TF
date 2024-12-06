@@ -4,7 +4,7 @@ Hey thanks for checking our my repo!
 
 Since this model is already trained on data, you can download model.h5 and make predictions using opencv. 
 
-If you want the data that I processed let me know, I wanted to leave it out so if anyone wants train their own model with new data they can, and additionally because the model is already trained so the data is not too important for the scope of this project.
+If you want the data that I processed let me know, I wanted to leave it out so if anyone wants train their own model based on this project for fun they can
 
 
 I detected 6 signs but can work for more, I am working on training the model on aditional data to add more signs, but just takes time
