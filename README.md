@@ -37,7 +37,7 @@ The processed dataset is intentionally excluded to encourage others to train the
   - I will make a requirements text file that you can run a bash script on
 
 Here is a quick demo of the interpreter
--- just noticed on the 'yes' sign mediapipe had trouble detecting my hand which is why it gave alot of variance
+-- on the 'yes' sign mediapipe had trouble detecting my hand which is why it gave alot of variance
 -- going to fix soon with more signs included
 
 
