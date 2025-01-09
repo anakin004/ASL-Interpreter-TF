@@ -1,21 +1,40 @@
 # ASL-Interpreter
 
-Hey thanks for checking our my repo!
+Hey, thanks for checking out my repo!
 
-Since this model is already trained on data, you can download model.h5 and make predictions using opencv. 
+This project is an **American Sign Language (ASL) Interpreter** that leverages machine learning using TensorFlow, Mediapipe, OpenCV and Numpy to detect and interpret ASL signs. The model has been trained on processed data and can make predictions using OpenCV.
 
-If you want the data that I processed let me know, I wanted to leave it out so if anyone wants train their own model based on this project for fun they can
+## 🚀 Quick Start
 
+### Downloading the Pre-trained Model
+- The trained model file (`model.h5`) is available in this repository.
+- Download it and place it in the appropriate directory as specified in the code (root directory)
+- It is highly recommended to use a virtual environment to utilize the model, you can using venv ...
 
-I detected 6 signs but can work for more, I am working on training the model on aditional data to add more signs, but just takes time
-I have 6 actions, previous had 3, that have 30 sequences/ 60 videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
+## 📊 Dataset Information
 
--- I previously had 30 videos and 30 frames per video, but the model did not perform well when I added more signs, however with more data the model's accuracy did not undergo noticable change,
-  and I had to go through less training to achieve similar accuracy, I now have 60 videos per action, with 30 frames each
+The ASL Interpreter model was trained with the following dataset structure:
+- **60 videos per action**
+- **30 frames per video**
+- Each frame contains a NumPy array with the keypoints representing the action.
 
--+~ one more note, the versions of the dependencies can go out of scope, so if any issues arrise downloading them, pip should be able to tell you which versions are invalid/incompatible
+### Key Notes:
+1. **Initial Dataset**:
+   - Contained 30 videos per action.
+   - Performance degraded when more signs were added to the model.
 
--- have fun!
+2. **Current Dataset**:
+   - Expanded to 60 videos per action.
+   - Improved robustness and required less training time.
+   - Overall accuracy remained stable despite the larger dataset.
+   - More signs to come ...
+
+### Data Availability:
+The processed dataset is intentionally excluded to encourage others to train their own models. If you're interested in obtaining the processed data for reference or further development, feel free to reach out!
+
+### Installing Dependencies
+1. Install the required dependencies:
+  - I will make a requirements text file that you can run a bash script on
 
 Here is a quick demo of the interpreter
 -- just noticed on the 'yes' sign mediapipe had trouble detecting my hand which is why it gave alot of variance
