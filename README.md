@@ -26,7 +26,7 @@ The ASL Interpreter model was trained with the following dataset structure:
 2. **Current Dataset**:
    - Expanded to 60 videos per action.
    - Improved robustness and required less training time.
-   - Overall accuracy remained stable despite the larger dataset.
+   - Overall accuracy remained stable despite the larger dataset, currently at 98%.
    - More signs to come ...
 
 ### Data Availability:
