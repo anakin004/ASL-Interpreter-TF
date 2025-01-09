@@ -9,7 +9,7 @@ This project is an **American Sign Language (ASL) Interpreter** that leverages m
 ### Downloading the Pre-trained Model
 - The trained model file (`model.h5`) is available in this repository.
 - Download it and place it in the appropriate directory as specified in the code (root directory)
-- It is highly recommended to use a virtual environment to utilize the model, you can using venv ...
+- It is highly recommended to use a virtual environment to utilize the model, venv recommended ...
 
 ## 📊 Dataset Information
 
