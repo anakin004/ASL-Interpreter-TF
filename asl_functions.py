@@ -1,7 +1,5 @@
 # this file is for easier accessability to simply have a baseline for other models
 # these are the primary functions used to detect, display, and extract the keypoints.
-# These essentially be constant in any related models, besides if you choose not to track face and/or postures
-
 
 import cv2
 import mediapipe as mp
