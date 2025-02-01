@@ -1,4 +1,7 @@
 asl_interpreter_env/
+env/
+old_data/
+Logs/
 
 __pycache__/
 

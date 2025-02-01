@@ -8,23 +8,14 @@ Since this model is already trained on data, you can download the trained.h5 mod
 
 -= note , I trained my model on limited data, essentially this was the structure of my data
 
-## Description of Directories
 
-- The `Data/` directory contains three folders: `hello/`, `thanks/`, and `iloveyou/`.
-- Each of these folders has subdirectories named from `0` to `29`, representing 30 videos.
-- Inside each video directory, there are 30 `.npy` files named from `0.npy` to `29.npy`.
-
-If you want the data that I processed let me know
-
-
-We have 3 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
-We have 3 actions, that have 30 sequences/videos , each video have 30 frames, each frame have a nmpy array with the keypoints of the action
+We have 8 signs we are detecting, I am working on training the model on aditional data to add more signs, but just takes time
+We have 8 actions, that have 70 sequences/videos , each video have 40 frames, each frame have a nmpy array with the keypoints of the action
 This really not a large ammount of data, and this model could be improved, but for effiency and timesake --- it works :)
 
 -- have fun!!!!!!!
 
 Here is a quick demo of the interpreter
- - I make a prediction by parsing 30 frames at a time so it fits the model
 
 https://github.com/user-attachments/assets/0a1989d9-5c38-45a5-9054-a55d27f5c4cd
 
